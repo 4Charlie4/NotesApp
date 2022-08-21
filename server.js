@@ -1,4 +1,4 @@
-// const apiRoutes = require("./Develop/routes/apiRoutes");
+const apiRoutes = require("./Develop/routes/apiRoutes");
 const htmlRoutes = require("./Develop/routes/htmlRoutes");
 const express = require("express");
 const fs = require("fs");
@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(express.static("./Develop/public"));
 
 app.use("/", htmlRoutes);
+app.use("/api", apiRoutes);
 
 app.listen(PORT, () => {
   console.log(`API server now on ${PORT}`);
