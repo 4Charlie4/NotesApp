@@ -1,6 +1,13 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+{
+    "notes": [
+        {
+            "title": "Test Title",
+            "text": "Test text"
+        },
+        {
+            "title": "Homework Time",
+            "text": "gangangnagn",
+            "id": "87c314d8-4d72-4c65-abfd-891fc1683820"
+        }
+    ]
+}
