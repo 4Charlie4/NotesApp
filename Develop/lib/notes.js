@@ -14,8 +14,6 @@ function validateNotes(notes) {
 function createNotes(body, notes) {
   const note = body;
   notes.push(note);
-  console.log(notes);
-  console.log(note);
   fs.writeFileSync(
     path.join(__dirname, "../db/db.json"),
     JSON.stringify({ notes }),

@@ -31,12 +31,17 @@ const getNotes = () => {
     headers: {
       "Content-Type": "application/json",
     },
-  }).then((res) => {
-    if (!res.ok) {
-      return alert("Error: " + res.statusText);
-    }
-    return res.json();
-  });
+  })
+    .then((res) => {
+      if (!res.ok) {
+        return alert("Error: " + res.statusText);
+      }
+      return res.json();
+    })
+    .then((noteData) => {
+      console.log(noteData);
+      return noteData;
+    });
 };
 
 const saveNote = (note) => {
@@ -49,7 +54,7 @@ const saveNote = (note) => {
   })
     .then((res) => {
       if (res.ok) {
-        return response.json();
+        return res.json();
       }
       alert("Error: " + res.statusText);
     })
