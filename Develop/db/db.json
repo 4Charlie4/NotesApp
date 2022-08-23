@@ -1,13 +1,1 @@
-{
-    "notes": [
-        {
-            "title": "Test Title",
-            "text": "Test text"
-        },
-        {
-            "title": "Something ",
-            "text": "Print this",
-            "id": "42973e2d-b185-483e-a307-d1fc1889cdb4"
-        }
-    ]
-}
+{"notes":[{"title":"Test Title","text":"Test text"},{"title":"Something ","text":"Print this","id":"42973e2d-b185-483e-a307-d1fc1889cdb4"},{"title":"Homework","text":"12\n","id":"06c293cf-ba47-447c-8634-be61b6ae5ef1"}]}
