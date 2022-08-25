@@ -12,6 +12,8 @@ Note taking application. The main focus of this project was to build a server us
 ## Installation
 This project will be deployed on heroku. You can download necessary files via github.
 
+https://shielded-bayou-46193.herokuapp.com/
+
 ## Contact
 
 **Github**: [4Charlie4](https://github.com/4Charlie4)
